@@ -16,7 +16,7 @@ public class Main {
         do {
             attemptCount++;
             try {
-                System.out.println("Enter a number between 1-10:");
+                System.out.println("Enter a number between 1-10: ");
                 userGuess=scanner.nextInt();
                 if (userGuess == secretNumber){
                     System.out.println("Correct guess! Number of attempts: "+attemptCount);
